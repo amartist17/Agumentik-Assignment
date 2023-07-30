@@ -1,0 +1,106 @@
+@import url("https://fonts.cdnfonts.com/css/publica-play");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Publica Play", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 4%;
+}
+nav .logo {
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+}
+nav .logo::before {
+  content: "";
+  left: 0%;
+  top: 0%;
+  transform: translate(-100%, 0%);
+  width: 30px;
+  height: 30px;
+  background-color: #5432F9;
+  border-radius: 50%;
+  position: absolute;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  color: rgb(137, 137, 137);
+  margin: 0 12px;
+}
+nav ul .active {
+  color: black;
+}
+nav a {
+  color: white;
+  background-color: #1FB9FC;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 4% 12%;
+}
+.hero h1 {
+  font-size: 52px;
+  font-weight: 800;
+  width: 45%;
+  margin: 0 auto;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 52px;
+}
+.hero .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24%;
+  margin: 24px auto 0px;
+}
+.hero .buttons .black {
+  color: white;
+  background-color: black;
+  padding: 10px 24px;
+  border-radius: 20px;
+}
+.hero .buttons .white {
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+.hero .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(6%, -20%);
+}
+.hero .cards img {
+  width: 250px;
+}
+.hero .cards .third {
+  width: 400px;
+  transform: translateY(-8%);
+}
+.hero .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .footer p {
+  color: black;
+  font-weight: 600;
+}
+.hero .footer p span {
+  color: rgb(104, 104, 104);
+}/*# sourceMappingURL=style.css.map */
